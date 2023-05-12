@@ -1,7 +1,7 @@
 
 require('dotenv').config();
 const express = require('express');
-const port = 4100;
+const port = process.env.port || 4100;
 const app = express();
 const passportJwt = require('./config/passport_jwt');
 const URL = require('./config/mongoose');
