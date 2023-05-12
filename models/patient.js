@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 const patientSchema = new mongoose.Schema({
     phone:{
         type:Number,
-        maxlength:15,
+        maxlength:10,
         required:true,
         unique:true
     },
@@ -12,7 +12,7 @@ const patientSchema = new mongoose.Schema({
     },
     doctor:{
         type:mongoose.Schema.Types.ObjectId,
-        ref:'Doctor'
+        ref:'doctor'
     }
 },{
     timestamps:true
