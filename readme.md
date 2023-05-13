@@ -24,18 +24,19 @@ First start with downloading the code and and write npm install on code editor, 
 You will need a code editor and mongoDB setup on your computer.
 We will use postman to check the api is working or not,So download postman on your computer.
 
-1.Now use this **http://localhost:4100/api/v1/doctors/register** route to register doctor in API and add the info as shown in image
+1.Now use this **http://localhost:4100/api/v1/doctor/register** route to register doctor in API and add the info as shown in image
 
-![image](![Screenshot (2)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/ec98ee81-e02f-454f-b5db-d1424f2bc8f5))
+![Screenshot (2)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/ec98ee81-e02f-454f-b5db-d1424f2bc8f5)
 
-2.Use this **http://localhost:4100/api/v1/doctors/login** to login as a doctor and add info as shown in image
+2.Use this **http://localhost:4100/api/v1/doctor/login** to login as a doctor and add info as shown in image
 
-![image](![Screenshot (3)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/87bc2893-f32a-42d7-93d5-9246d907cead)
-)
+![Screenshot (3)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/87bc2893-f32a-42d7-93d5-9246d907cead)
 
-3.Use this **http://localhost:4100/api/v1/patients/register** and add the token in authorization area which is recieved in second point
 
-![image](https://user-images.githubusercontent.com/74106414/236742199-0f9a71eb-a2a2-4e4f-889d-000a156e7816.png)
+3.Use this **http://localhost:4100/api/v1/patient/register** and add the token in authorization area which is recieved in second point
+
+![Screenshot (4)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/b66fd4b9-379d-4e9f-a278-b1a902441b04)
+
 
 4. Use this **http://localhost:4100/api/v1/patients/62c31cc86a84003324d04cb5/create_report** to create report and add status you can see the types of 
    status in report model.
