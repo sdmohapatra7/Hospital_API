@@ -38,12 +38,13 @@ We will use postman to check the api is working or not,So download postman on yo
 ![Screenshot (4)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/b66fd4b9-379d-4e9f-a278-b1a902441b04)
 
 
-4. Use this **http://localhost:4100/api/v1/patients/62c31cc86a84003324d04cb5/create_report** to create report and add status you can see the types of 
+4. Use this **http://localhost:4100/api/v1/patient/62c31cc86a84003324d04cb5/createReport** to create report and add status you can see the types of 
    status in report model.
 
 ![Screenshot (5)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/4df23826-6705-4826-a308-a27d246ff07c)
 
 
-5. Use this **http://localhost:4100/api/v1/patients/62c31cc86a84003324d04cb5/all_reports** to get all the reports.
+5. Use this **http://localhost:4100/api/v1/patient/62c31cc86a84003324d04cb5/allReports** to get all the reports.
 
-![image](https://user-images.githubusercontent.com/74106414/236742229-ad057a9b-3b03-4496-bf55-36f1bced526f.png)
+![Screenshot (6)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/d6bc3960-2c58-48e8-92d9-8fac1455fd04)
+
