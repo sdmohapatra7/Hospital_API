@@ -30,7 +30,8 @@ We will use postman to check the api is working or not,So download postman on yo
 
 2.Use this **http://localhost:4100/api/v1/doctors/login** to login as a doctor and add info as shown in image
 
-![image](https://user-images.githubusercontent.com/74106414/236742179-4670c686-f2c3-467d-a8bb-863141196c1c.png)
+![image](![Screenshot (3)](https://github.com/sdmohapatra7/Hospital_API/assets/121569281/87bc2893-f32a-42d7-93d5-9246d907cead)
+)
 
 3.Use this **http://localhost:4100/api/v1/patients/register** and add the token in authorization area which is recieved in second point
 
